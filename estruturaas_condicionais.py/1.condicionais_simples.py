@@ -12,9 +12,20 @@ idade = int(input("Digite sua idade: "))
 
 if idade > 10:
     print("é maior que 10!")
-else:
-    print("não é maior que dez!")  
 
-    # Exibindo dados (Saida) 
 
+if idade == 10:
+    print("é igual a 10")
+
+
+
+if idade < 10:
+    print("não é maior que 10!")
+
+
+   
+
+
+
+ # Exibindo dados (Saida) 
     print("== fim ==")
