@@ -12,7 +12,7 @@ terceira_nota = float(input("Digite a terceira nota: "))
 media = (primeira_nota + segunda_nota + terceira_nota)
 
 print()
-print(f"media: {media}")
+print(f"Media: {media}")
 
 if media < 7:
     print("Reprovado!")
@@ -20,5 +20,5 @@ else:
     print("aprovado!")
 
 print(f"\nMedia:  {media}")
-print(f"Resultado:  {resultant}")
+print(f"Resultado:  {resultado}")
 

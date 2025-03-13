@@ -8,7 +8,7 @@ primeiro_numero = float(input("Digite a primeira nota: "))
 segundo_numero = float(input("Digite a segunda nota: "))
 
 
-media = (primeiro_numero + segundo_numero) / 2
+media = (c) / 2
 soma = (primeiro_numero + segundo_numero)
 produto = (primeiro_numero * segundo_numero)
 igual = (primeiro_numero == segundo_numero)
