@@ -14,9 +14,9 @@ os.system("clear") # limpa o terminal
 
 
 
-print("Contagem de 2 em 2.")
-for i in range(100,121,2):
+print("Contagem regressiva.")
+for i in range(10,1,-1):
     print(f"Valor da variavel:{i}")
-    time.sleep(0.5)
+    time.sleep(1)
 
 print("ACABOU")    
