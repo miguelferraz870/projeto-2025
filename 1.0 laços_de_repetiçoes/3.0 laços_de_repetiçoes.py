@@ -16,7 +16,7 @@ numero = int(input("Digite um numero para tabuada:"))
 
 
 print(f"\nTabuada do numero {numero}:")
-for i in range(1,11):
+for i in range(1,100):
     print(f"{numero} x {i} = {i*numero}")   
     time.sleep(0.1)
 
