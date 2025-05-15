@@ -3,28 +3,29 @@ from dataclasses import dataclass
 os.system("cls || clear")
 
 @dataclass
-class funcionaria:
+class funcionario:
     nome: str
     data_de_admissao: str
     matricula: str
-    endereço: str
+    endereco: str
 
 @dataclass
 class cliente:
     nome: str
     data_de_nascimento: str
-    endereço: str
+    endereco: str
 
 lista_funcionarios = []
 lista_clientes = []
 quantidade_funcionario = 3
 quantidade_cliente = 3
 
-print("Informe os dados dos funcionarios")
+
 for i in range(quantidade_funcionario):
-    funcionario = funcionaria(
+    print("Informe os dados dos funcionarios")
+    funcionario = funcionario(
         nome=input("Nome:"),
-        data_de_admissao=input("Data de Admissao:"),
+        data_de_admissao=input("Data de nascimento:"),
         matricula=input("Matricula:"),
         endereço=input("Endereço:")
     )
